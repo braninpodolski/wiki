@@ -54,3 +54,6 @@ def random_entry(request):
     entries = util.list_entries()
     selected_entry = random.choice(entries)
     return redirect("encyclopedia:entry", entry=selected_entry)
+
+def search(request):
+    pass
